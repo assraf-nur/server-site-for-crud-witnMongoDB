@@ -11,7 +11,7 @@ app.use(express.json());
 
 // mongo connect code
 const uri =
-  "mongodb+srv://nur:1010778711@mydata.zdc33.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+  "mongodb+srv://name:<password>@mydata.zdc33.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
